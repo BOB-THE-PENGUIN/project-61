@@ -33,10 +33,12 @@ html {
     padding-right: 9px;
     padding-bottom: 5px;
     font-size: 20px;
+    transition: transform .2s;
 }
 
 .links:hover {
     background-color: dodgerblue;
+    transform: scale(1.5)
 }
 
 img {
